@@ -1,0 +1,102 @@
+<div
+  id="carouselExampleControls"
+  class="relative"
+  data-te-carousel-init
+  data-te-carousel-slide>
+  
+  <div
+    class="relative flex w-full overflow-hidden ">
+   
+    <div className=' hover:-translate-x-1 md:mt-3 hover:translate-y-1'>
+        <Link to={'/AvengerInfinity'}><div> <img className='h-80 hover:cursor-pointer rounded-xl  hover:text-blue-600 active:text-purple-600 ' src="https://images.fandango.com/ImageRenderer/400/0/redesign/static/img/default_poster.png/0/images/masterrepository/fandango/199925/AvengersInfinityWar-4K-1000x1000.jpg" alt="" />
+             
+             <h1 className='text-2xl p-1 
+          hover:cursor-pointer hover:text-blue-600 active:text-purple-600'> Name:- Avengers Endgame</h1></div></Link>
+
+            <h1 className='text-xl p-1  ' >Rating:- 4.5/5.0</h1>
+           
+            <h1 className='text-xl p-1  ' >Year:- 2019</h1>
+        </div>
+    
+    <div className='hover:-translate-x-1 md:mt-3 hover:translate-y-1'>
+        <Link to={'/Strange'}> <div> <img className='h-80 w-80 hover:cursor-pointer rounded-xl  hover:text-blue-600 active:text-purple-600 ' src="https://upload.wikimedia.org/wikipedia/en/1/17/Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpg" alt="" />
+             </div>
+             <h1 className='text-2xl p-1 
+          hover:cursor-pointer hover:text-blue-600 active:text-purple-600'> Name:- Dr. Strange Multiverse</h1></Link>
+
+            <h1 className='text-xl p-1  ' >Rating:- 4.4/5.0</h1>
+            <h1 className='text-xl p-1  ' >Year:- 2022</h1>
+        </div>
+    
+    <div className=' hover:-translate-x-1md:mt-3 hover:translate-y-1'>
+        <Link to={'/John'}> <div> <img className='h-80 w-80 hover:cursor-pointer rounded-xl  hover:text-blue-600 active:text-purple-600 ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBBejmsN1tTboCGogzogDD7HkHZA376DRujetG2rx3JvCv2kuDupwhxAGS8cTinyMA_uM&usqp=CAU" alt="" />
+             </div>
+             <h1 className='text-2xl p-1 
+          hover:cursor-pointer hover:text-blue-600 active:text-purple-600'> Name:- John Wick Chapter-4</h1></Link>
+
+            <h1 className='text-xl p-1  ' >Rating:- 4.4/5.0</h1>
+            <h1 className='text-xl p-1  ' >Year:- 2023</h1>
+        </div>
+        <div className=' hover:-translate-x-1 md:mt-3 hover:translate-y-1'>
+            <Link to={'/Avatar2'}> <div> <img className='h-80 w-80 hover:cursor-pointer rounded-xl  hover:text-blue-600 active:text-purple-600 ' src="https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX1000_.jpg" alt="" />
+                 </div>
+                 <h1 className='text-2xl p-1 
+              hover:cursor-pointer hover:text-blue-600 active:text-purple-600'> Name:-Avatar 2 Way of Water</h1></Link>
+ 
+                <h1 className='text-xl p-1  ' >Rating:- 4.6/5.0</h1>
+                <h1 className='text-xl p-1  ' >Year:- 2023</h1>
+            </div>
+ 
+        </div>
+  </div>
+
+  
+  <button
+    class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+    type="button"
+    data-te-target="#carouselExampleControls"
+    data-te-slide="prev">
+    <div class="inline-block h-8 w-8">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M15.75 19.5L8.25 12l7.5-7.5" />
+      </svg>
+    </div>
+    <div
+      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+      >Previous</div
+    >
+  </button>
+ 
+  <button
+    class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+    type="button"
+    data-te-target="#carouselExampleControls"
+    data-te-slide="next">
+    <div class="inline-block h-8 w-8">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+      </svg>
+    </div>
+    <div
+      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+      >Next</div
+    >
+  </button>
